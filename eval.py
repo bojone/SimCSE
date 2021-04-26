@@ -141,16 +141,6 @@ def simcse_loss(y_true, y_pred):
 
 
 # SimCSE训练
-"""
-from keras.models import Model
-from keras.layers import *
-
-for layer in encoder.layers:
-    layer.trainable = False
-
-output = Dense(768, kernel_initializer='orthogonal')(encoder.output)
-encoder = Model(encoder.inputs, output)
-"""
 encoder.summary()
 encoder.compile(loss=simcse_loss, optimizer=Adam(1e-5))
 train_generator = data_generator(train_token_ids, 64)
