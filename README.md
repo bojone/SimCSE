@@ -50,3 +50,7 @@ Google官方的两个BERT模型：
 - 链接: https://pan.baidu.com/s/1d6jSiU1wHQAEMWJi7JJWCQ 提取码: qkt6
 
 其中senteval_cn目录是评测数据集汇总，senteval_cn.zip是senteval目录的打包，两者下其一就好。
+
+## 交流
+
+QQ交流群：808623966，微信群请加机器人微信号spaces_ac_cn
