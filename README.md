@@ -45,7 +45,7 @@ Google官方的两个BERT模型：
 - SimBERT: [chinese_simbert_L-12_H-768_A-12.zip](https://github.com/ZhuiyiTechnology/simbert)
 - SimBERT-small: [chinese_simbert_L-6_H-384_A-12.zip](https://github.com/ZhuiyiTechnology/simbert)
 - SimBERT-tiny: [chinese_simbert_L-4_H-312_A-12.zip](https://github.com/ZhuiyiTechnology/simbert)
-- 
+
 关于语义相似度数据集，可以从数据集对应的链接自行下载，也可以从作者提供的百度云链接下载。
 - 链接: https://pan.baidu.com/s/1d6jSiU1wHQAEMWJi7JJWCQ 提取码: qkt6
 
