@@ -34,6 +34,9 @@ python eval.py BERT cls ATEC 0.3
 - dropout_rate: 浮点数，dropout的比例，如果为0则不dropout；
 ```
 
+## 环境
+测试环境：tensorflow 1.14 + keras 2.3.1 + bert4keras 0.10.5，如果在其他环境组合下报错，请根据错误信息自行调整代码。
+
 ## 下载
 
 Google官方的两个BERT模型：
@@ -50,6 +53,9 @@ Google官方的两个BERT模型：
 - 链接: https://pan.baidu.com/s/1d6jSiU1wHQAEMWJi7JJWCQ 提取码: qkt6
 
 其中senteval_cn目录是评测数据集汇总，senteval_cn.zip是senteval目录的打包，两者下其一就好。
+
+## 相关
+- BERT-whitening：https://github.com/bojone/BERT-whitening
 
 ## 交流
 
