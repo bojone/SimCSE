@@ -6,6 +6,7 @@ SimCSE在常见中文数据集上的测试，包含[ATEC](https://github.com/Ice
 
 - 博客：https://kexue.fm/archives/8348
 - 论文：[《SimCSE: Simple Contrastive Learning of Sentence Embeddings》](https://arxiv.org/abs/2104.08821)
+- 官方：https://github.com/princeton-nlp/SimCSE
 
 ## 文件
 
