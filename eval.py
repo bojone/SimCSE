@@ -134,7 +134,7 @@ def simcse_loss(y_true, y_pred):
     # 计算相似度
     y_pred = K.l2_normalize(y_pred, axis=1)
     similarities = K.dot(y_pred, K.transpose(y_pred))
-    similarities = similarities - K.eye(K.shape(y_pred)[0]) * 1e12
+    similarities = similarities - tf.eye(K.shape(y_pred)[0]) * 1e12
     similarities = similarities * 20
     loss = K.categorical_crossentropy(y_true, similarities, from_logits=True)
     return K.mean(loss)
