@@ -3,6 +3,7 @@
 
 from utils import *
 import sys
+import tensorflow as tf
 from bert4keras.optimizers import Adam
 from bert4keras.snippets import DataGenerator, sequence_padding
 import jieba
